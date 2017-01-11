@@ -1,0 +1,24 @@
+@charset utf-8;
+*{padding:0;margin:0;}
+body{background:white;border:4px #239494 solid;}
+.left{width:100%;position:relative;height:700px;}
+.left ul{list-style:none;width:98%;margin-top:15px;margin-left:1%;}
+.left ul li{float:left;width:100%;text-align:center;line-height:35px;background:white;border-bottom:1px #DDDDDD solid;}
+.left ul li a{text-decoration:none;color:#239494;font-size:13px;}
+.left .personal_info{width:100%;height:120px;border-bottom:0px #239494 solid;padding:10px;}
+.left .personal_info .name{margin-left:10px;display:inline-block;font-size:16px;color:#239494;margin-top:10px;}
+.left .personal_info .sign{margin:10px 0 0 10px;display:inline-block;font-size:12px;color:#239494;}
+.left .personal_info img{width:100px;height:100px;border-radius:100%;float:left;}
+.left .blank{height:30px;width:100%;background:#DDDDDD;color:#969696;line-height:30px;}
+.left .blank span{padding-left:10px;}
+.left .personal_info form input.hobby{width:30%;height:30px;line-height:30px;border-radius:6px;border:none;padding-left:5px;}
+.left .personal_info .title{color:#969696;}
+.left .personal_info ul{list-style:none;margin-top:15px;margin-left:1%;width:auto;}
+.left .personal_info ul li{width:auto;float:left;padding:5px;text-align:center;line-height:25px;background:#239494;color:white;
+	margin-left:8px;border-radius:10px;}
+.left .personal_info .already_info{width:40%;color:#969696;height:25px;margin:10px 0 0 70px;font-size:13px;}
+.left .personal_info .already_info a{color:#969696;text-decoration:none;float:right;display:block;font-size:12px;}
+.left .personal_info .already_info img{margin-left:20px;width:100px;height:100px;border-radius:100%;}
+.left .needto_add{margin-left:1%;margin-top:20px;color:#239494;font-size:13px;}
+.left .needto_add input{margin-left:20px;}
+.left .needto_add .submit{border:none;background:#239494;color:white;border-radius:6px;}
